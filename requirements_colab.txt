@@ -1,0 +1,11 @@
+tqdm
+matplotlib
+jupyter
+numpy
+librosa
+soundfile
+scikit-plot
+pandas
+tensorflow
+keras
+wget

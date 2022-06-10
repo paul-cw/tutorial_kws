@@ -42,12 +42,16 @@ print('try loading dataset from ', data_dir)
 
 # In[5]:
 
+import wget 
 
 if not os.path.isdir(data_dir):
     print('loading dataset')
     os.mkdir(data_dir)
     print('start downloading')
-    os.system('wget -O %sspeech_commands_v0.02.tar.gz http://download.tensorflow.org/data/speech_commands_v0.02.tar.gz'%data_dir)
+    #os.system('wget -O %sspeech_commands_v0.02.tar.gz http://download.tensorflow.org/data/speech_commands_v0.02.tar.gz'%data_dir)
+    url = "http://download.tensorflow.org/data/speech_commands_v0.02.tar.gz"
+    to_name = "./data/speech_commands_v0.02.tar.gz"
+    wget.download(url, out=to_name)
     print('start unzipping')
     os.system('tar -xf %sspeech_commands_v0.02.tar.gz -C '%data_dir + '%s'%data_dir[0:-1])
     print('start removing .zip file')
