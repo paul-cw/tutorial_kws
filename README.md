@@ -32,3 +32,12 @@ After that:
  This is not tested carefully, therefore the method above is preferred.
  When using Colab anyway, you should use the ´requirements_colab´ file to install the requirements.
  - add this cell to a notebook: `!pip install -r tutorial_kws/requirements_colab.txt`
+
+## useful resources 
+
+- [Deep Learning](https://www.deeplearningbook.org/)
+- [FFT](https://www.youtube.com/watch?v=spUNpyF58BY)
+- [Neural Networks Playground](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=6,2&seed=0.40563&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=true&cosY=false&sinY=true&collectStats=false&problem=classification&initZero=false&hideText=false)
+- [CNNs](https://setosa.io/ev/image-kernels/)
+- [CNNs II](https://theano-pymc.readthedocs.io/en/latest/tutorial/conv_arithmetic.html)
+
