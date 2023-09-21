@@ -124,3 +124,4 @@ wget==3.2
 widgetsnbextension==3.6.0
 wrapt==1.14.0
 zipp==3.8.0
+jupyterlab
